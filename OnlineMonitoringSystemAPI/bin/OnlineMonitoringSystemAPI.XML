@@ -1,0 +1,1021 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OnlineMonitoringSystemAPI</name>
+    </assembly>
+    <members>
+        <member name="T:OnlineMonitoringSystemAPI.Controllers.LocationController">
+            <summary>
+            a
+            </summary>
+        </member>
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.LocationController.GetLocation(System.String)">
+            <summary>
+            得到站点基本信息
+            </summary>
+            <returns>站点信息列表</returns>
+        </member>
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.LocationController.GetLocationInfo(System.String)">
+            <summary>
+            得到站点所有信息
+            </summary>
+            <returns>站点信息列表</returns>
+        </member>
+        <member name="M:DataAccess._51Data.GetIncrementColumn(System.String)">
+            <summary>
+            得到自增列的信息
+            </summary>
+            <param name="TableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess._51Data.GetIncrementColumnName(System.String)">
+            <summary>
+            得到自增列列名
+            </summary>
+            <param name="TableName">表名</param>
+            <returns></returns>
+        </member>
+        <member name="M:DataAccess._51Data.Delete(System.String)">
+            <summary>
+            删除操作数据库的方法
+            </summary>
+            <param name="sqlDel">删除操作的SQL语句</param>
+            <returns>返回操作状态（true成功，false失败）</returns>
+        </member>
+        <member name="M:DataAccess._51Data.ExecProcedureSelect(System.String)">
+            <summary>
+            查询操作数据库的方法（存储过程）
+            </summary>
+            <param name="ProcedureName">存储过程名</param>
+            <returns>返回DataTable的集合</returns>
+        </member>
+        <member name="M:DataAccess._51Data.ExecProcedureSelect(System.String,System.String[],System.Object[])">
+            <summary>
+            查询操作数据库的方法（存储过程）
+            </summary>
+            <param name="ProcedureName">存储过程名</param>
+            <param name="VariableName">参数集合</param>
+            <param name="Values">值集合</param>
+            <returns>返回DataTable的集合</returns>
+        </member>
+        <member name="M:DataAccess._51Data.ExecProcedure(System.String,System.String[],System.Object[])">
+            <summary>
+            增、删、改操作数据库的方法（存储过程）
+            </summary>
+            <param name="ProcedureName">存储过程名</param>
+            <param name="VariableName">参数集合</param>
+            <param name="Values">值集合</param>
+            <returns>返回操作状态（true成功，false失败）</returns>
+        </member>
+        <member name="T:DataAccess.SqlModelConvertHelper`1">
+            <summary>
+            数据层实例
+            </summary>
+        </member>
+        <member name="T:Models.LocaInfo_Tab">
+            <summary>
+            LocaInfo_Tab:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.LocaInfo_Tab.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocaInfo_Tab.LocaManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocaInfo_Tab.Tel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocaInfo_Tab.Longitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocaInfo_Tab.Latitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocaInfo_Tab.Altitud">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocaInfo_Tab.Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocaInfo_Tab.AddTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.Image_Tab">
+            <summary>
+            YY_RTU_Basic:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.Image_Tab.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.Image_Tab.ImagePath">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.Image_Tab.Remark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.Image_Tab.AddTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.LocationInfo">
+            <summary>
+            YY_RTU_Basic:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.LocationInfo.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocationInfo.PassWord">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocationInfo.NiceName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocationInfo.Longitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.LocationInfo.Latitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.CENTER_RTUCHANGE">
+            <summary>
+            CENTER_RTUCHANGE:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="T:Models.CENTER_SERVER">
+            <summary>
+            CENTER_SERVER:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="T:Models.CENTER_STARTSTATE">
+            <summary>
+            CENTER_STARTSTATE:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="T:Models.WX_AlarmCondition">
+            <summary>
+            WX_AlarmCondition:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="T:Models.WX_AlarmInfo">
+            <summary>
+            WX_AlarmInfo:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="T:Models.WX_User">
+            <summary>
+            WX_AlarmInfo:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="T:Models.YY_COMMAND_TEMP">
+            <summary>
+            YY_COMMAND_TEMP:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_COMMAND_TEMP.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_COMMAND_TEMP.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_COMMAND_TEMP.CommandID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_COMMAND_TEMP.Data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_COMMAND_TEMP.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_COMMAND_TEMP.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_AUTO">
+            <summary>
+            YY_DATA_AUTO:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.DOWNDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.DATAVALUE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.CorrectionVALUE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.DATATYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_AUTO.STTYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_COMMAND">
+            <summary>
+            YY_DATA_COMMAND:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_COMMAND.CommandID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_COMMAND.STATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_COMMAND.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_COMMAND.DOWNDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_COMMAND.Command">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_COMMAND.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_COMMAND.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_GPS">
+            <summary>
+            YY_DATA_AUTO:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.DOWNDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.Longitude">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.Latitude">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.Altitude">
+            <summary>
+            海拔
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.Accuracy">
+            <summary>
+            精度
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.Speed">
+            <summary>
+            速度
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.Bearing">
+            <summary>
+            方位角
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.LocType">
+            <summary>
+            定位类型  0 gps  1北斗 2基站 
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_GPS.IsRealTime">
+            <summary>
+            是否为实时数据  0缓存   1实时  
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_IMG">
+            <summary>
+            YY_DATA_IMG:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_IMG.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_IMG.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_IMG.DOWNDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_IMG.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_IMG.DATAVALUE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_IMG.INFO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_IMG.DATATYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_LOG">
+            <summary>
+            YY_DATA_LOG:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_LOG.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_LOG.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_LOG.LOGID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_LOG.DOWNDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_LOG.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_LOG.COUNT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_LOG.ERC">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_MANUAL">
+            <summary>
+            YY_DATA_MANUAL:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_MANUAL.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_MANUAL.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_MANUAL.DOWNDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_MANUAL.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_MANUAL.DATAVALUE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_MANUAL.DATATYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_ONLINE">
+            <summary>
+            YY_DATA_AUTO:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_ONLINE.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_ONLINE.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_ONLINE.DATACOUNT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_REM">
+            <summary>
+            YY_DATA_REM:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_REM.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_REM.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_REM.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_REM.DOWNDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_REM.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_REM.DATAVALUE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_REM.DATATYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_DATA_STATE">
+            <summary>
+            YY_DATA_STATE:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_STATE.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_STATE.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_STATE.DOWNDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_STATE.NFOINDEX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_STATE.STATEDATA">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_DATA_STATE.DATAVALUE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_ITEMTYPE.ItemTypeIndex">
+            <summary>
+            监测项类型的索引
+            </summary>
+        </member>
+        <member name="P:Models.YY_ITEM_TI.ItemIndex">
+            <summary>
+            监测项索引
+            </summary>
+        </member>
+        <member name="T:Models.YY_LOG">
+            <summary>
+            YY_LOG:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_LOG.LOGID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_LOG.RTULOG">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_Basic">
+            <summary>
+            YY_RTU_Basic:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_Basic.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_Basic.PassWord">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_Basic.NiceName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_Basic.Longitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_Basic.Latitude">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_BI">
+            <summary>
+            YY_RTU_BI:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_BI.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_BI.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_COMMAND">
+            <summary>
+            YY_RTU_COMMAND:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_COMMAND.CommandID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_COMMAND.Remark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_COMMAND.State">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_CONFIGDATA">
+            <summary>
+            YY_RTU_CONFIGDATA:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_CONFIGDATA.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_CONFIGDATA.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_CONFIGDATA.ConfigID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_CONFIGDATA.ConfigVal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_CONFIGITEM">
+            <summary>
+            YY_RTU_CONFIGITEM:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_CONFIGITEM.ConfigID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_CONFIGITEM.ConfigItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_ITEM">
+            <summary>
+            YY_RTU_ITEM:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEM.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEM.ItemName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEM.ItemCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEM.ItemInteger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEM.ItemDecimal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEM.PlusOrMinus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEM.Units">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_ITEMCONFIG">
+            <summary>
+            YY_RTU_ITEMCONFIG:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEMCONFIG.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_ITEMCONFIG.ConfigID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_TIME">
+            <summary>
+            YY_RTU_TIME:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_TIME.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_TIME.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_TIME.IsAutoNeedQuery">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_TIME.Interval">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_TIME.SillValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_TIME.CommandType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_WATERYIELD">
+            <summary>
+            YY_RTU_WATERYIELD:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WATERYIELD.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WATERYIELD.ItemID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WATERYIELD.STREAM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WATERYIELD.STR_PAD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WATERYIELD.TM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WATERYIELD.TYPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_WORK">
+            <summary>
+            YY_RTU_WORK:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.MODE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.AutoSwitch">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.Relaying">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.PowerReport">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.SwitchReport">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.FaultReport">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.FixValueStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.FixValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.RelayAddress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.RelayLength">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.ICStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.WorkM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.CommunicationM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.PWMODE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.ELEM">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.PhoneNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WORK.SatelliteNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_RTU_WRES">
+            <summary>
+            YY_RTU_WRES:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.STCD">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.CODE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.ADR_ZX">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.COM_M">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.ADR_M">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.COM_B">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.ADR_B">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.PhoneNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_RTU_WRES.SatelliteNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Models.YY_STATE">
+            <summary>
+            YY_STATE:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:Models.YY_STATE.STATEID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Models.YY_STATE.RTUSTATE">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
