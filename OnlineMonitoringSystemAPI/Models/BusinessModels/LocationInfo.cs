@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace Models
 {
 	/// <summary>
 	/// YY_RTU_Basic:实体类(属性说明自动提取数据库字段的描述信息)
 	/// </summary>
-	[Serializable]
-	public partial class LocationInfo
+	[DataContract]
+    public partial class LocationInfo
 	{
 		public LocationInfo()
 		{}
@@ -17,29 +18,35 @@ namespace Models
 		private string _nicename;
         private decimal? _longitude;
         private decimal? _latitude;
+
+        [DataMember]
         public LocaInfo_Tab LocaInfo { get; set; }
+        [DataMember]
         public List<Image_Tab> Image { get; set; }
 
         /// <summary>
         /// 
         /// </summary>
+        [DataMember]
         public string STCD
 		{
 			set{ _stcd=value;}
 			get{return _stcd;}
 		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public string PassWord
+        /// <summary>
+        /// 
+        /// </summary>
+        [DataMember]
+        public string PassWord
 		{
 			set{ _password=value;}
 			get{return _password;}
 		}
-		/// <summary>
-		/// 
-		/// </summary>
-		public string NiceName
+        /// <summary>
+        /// 
+        /// </summary>
+        [DataMember]
+        public string NiceName
 		{
 			set{ _nicename=value;}
 			get{return _nicename;}
@@ -47,9 +54,10 @@ namespace Models
 
 
         /// <summary>
-		/// 
-		/// </summary>
-		public decimal? Longitude
+        /// 
+        /// </summary>
+        [DataMember]
+        public decimal? Longitude
         {
             set { _longitude = value; }
             get { return _longitude; }
@@ -58,6 +66,7 @@ namespace Models
         /// <summary>
         /// 
         /// </summary>
+        [DataMember]
         public decimal? Latitude
         {
             set { _latitude = value; }

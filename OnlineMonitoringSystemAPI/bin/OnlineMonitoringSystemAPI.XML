@@ -4,18 +4,55 @@
         <name>OnlineMonitoringSystemAPI</name>
     </assembly>
     <members>
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.DataController.GetDataForElements(Models.GetDataForElementsParameter)">
+            <summary>
+            根据监测元素ID获得数据
+            </summary>
+            <param name="Parameter">参数类</param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.DataController.GetAllNewData">
+            <summary>
+            得到所有站点各参数最新数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.ElementsController.GetAllElements">
+            <summary>
+            得到所有监测元素信息
+            </summary>
+            <param name="where">条件</param>
+            <returns>监测元素列表</returns>
+        </member>
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.ElementsController.GetElementsType">
+            <summary>
+            得到监测元素类型
+            </summary>
+        </member>
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.ElementsController.GetElements">
+            <summary>
+            得到监测元素类型和包含的相关元素
+            </summary>
+        </member>
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.ElementsController.GetElementsForLocation(Models.STCDParameter)">
+            <summary>
+            根据站号得到监测元素
+            </summary>
+            <param name="Loca">站号参数类</param>
+            <returns>监测元素列表</returns>
+        </member>
         <member name="T:OnlineMonitoringSystemAPI.Controllers.LocationController">
             <summary>
             a
             </summary>
         </member>
-        <member name="M:OnlineMonitoringSystemAPI.Controllers.LocationController.GetLocation(System.String)">
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.LocationController.GetLocation">
             <summary>
             得到站点基本信息
             </summary>
             <returns>站点信息列表</returns>
         </member>
-        <member name="M:OnlineMonitoringSystemAPI.Controllers.LocationController.GetLocationInfo(System.String)">
+        <member name="M:OnlineMonitoringSystemAPI.Controllers.LocationController.GetLocationInfo(Models.STCDParameter)">
             <summary>
             得到站点所有信息
             </summary>
@@ -185,6 +222,36 @@
         <member name="T:Models.CENTER_STARTSTATE">
             <summary>
             CENTER_STARTSTATE:实体类(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="T:Models.GetDataForElementsParameter">
+            <summary>
+            参数类
+            </summary>
+        </member>
+        <member name="P:Models.GetDataForElementsParameter.ElementID">
+            <summary>
+            参数ID
+            </summary>
+        </member>
+        <member name="P:Models.GetDataForElementsParameter.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Models.GetDataForElementsParameter.EndTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="T:Models.STCDParameter">
+            <summary>
+            站号参数类
+            </summary>
+        </member>
+        <member name="P:Models.STCDParameter.STCD">
+            <summary>
+            站号
             </summary>
         </member>
         <member name="T:Models.WX_AlarmCondition">

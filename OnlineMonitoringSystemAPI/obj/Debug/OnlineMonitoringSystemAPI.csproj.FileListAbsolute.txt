@@ -45,3 +45,97 @@ C:\Users\pc0391\Desktop\123\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\
 C:\Users\pc0391\Desktop\123\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
 C:\Users\pc0391\Desktop\123\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.dll
 C:\Users\pc0391\Desktop\123\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.pdb
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\ApplicationInsights.config
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\csc.exe
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\vbc.exe
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\OnlineMonitoringSystemAPI.dll.config
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\OnlineMonitoringSystemAPI.XML
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\OnlineMonitoringSystemAPI.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\OnlineMonitoringSystemAPI.pdb
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.Web.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.ApplicationInsights.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Newtonsoft.Json.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Swashbuckle.Core.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\System.Net.Http.Formatting.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\System.Web.Http.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\System.Web.Http.WebHost.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\WebActivatorEx.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.Web.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.ApplicationInsights.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\Newtonsoft.Json.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\System.Net.Http.Formatting.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\System.Web.Http.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\System.Web.Http.WebHost.xml
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\zh-Hans\System.Web.Http.resources.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.dll
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.pdb
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\ApplicationInsights.config
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\csc.exe
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\vbc.exe
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\VBCSCompiler.exe
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\OnlineMonitoringSystemAPI.dll.config
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\OnlineMonitoringSystemAPI.XML
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\OnlineMonitoringSystemAPI.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\OnlineMonitoringSystemAPI.pdb
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.Web.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.ApplicationInsights.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Newtonsoft.Json.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Swashbuckle.Core.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\System.Net.Http.Formatting.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\System.Web.Http.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\System.Web.Http.WebHost.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\WebActivatorEx.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.Web.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.ApplicationInsights.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\Newtonsoft.Json.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\System.Net.Http.Formatting.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\System.Web.Http.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\System.Web.Http.WebHost.xml
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.dll
+D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.pdb
