@@ -140,6 +140,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BusinessModels\Element_Data.cs" />
     <Compile Include="Models\BusinessModels\LocaInfo_Tab.cs" />
     <Compile Include="Models\BusinessModels\Image_Tab.cs" />
     <Compile Include="Models\BusinessModels\LocationInfo.cs" />
@@ -147,6 +148,7 @@
     <Compile Include="Models\CENTER_RTUCHANGE.cs" />
     <Compile Include="Models\CENTER_SERVER.cs" />
     <Compile Include="Models\CENTER_STARTSTATE.cs" />
+    <Compile Include="Models\ElementsChartsInfo_Tab.cs" />
     <Compile Include="Models\ParameterModels\GetDataForElementsParameter.cs" />
     <Compile Include="Models\ParameterModels\STCDParameter.cs" />
     <Compile Include="Models\WX _AlarmCondition.cs" />

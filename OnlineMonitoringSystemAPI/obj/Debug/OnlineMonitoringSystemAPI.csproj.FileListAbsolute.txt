@@ -139,3 +139,4 @@ D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\
 D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
 D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.dll
 D:\Program Files\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.pdb
+D:\GitHub\OnlineMonitoringSystemAPI\OnlineMonitoringSystemAPI.git\trunk\OnlineMonitoringSystemAPI\obj\Debug\OnlineMonitoringSystemAPI.csprojResolveAssemblyReference.cache

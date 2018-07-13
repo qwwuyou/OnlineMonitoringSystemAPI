@@ -18,15 +18,27 @@ namespace OnlineMonitoringSystemAPI.Controllers
         /// <param name="Parameter">参数类</param>
         /// <returns></returns>
         [HttpPost]
-        public List<YY_DATA_AUTO> GetDataForElements(GetDataForElementsParameter Parameter)
+        public Element_Data GetDataForElements(GetDataForElementsParameter Parameter)
         {
-            return dt.Select<YY_DATA_AUTO>("YY_DATA_AUTO", new string[] { "*" }, " where itemID='"+ Parameter.ElementID + "' and TM>='"+ Parameter.StartTime + "' and TM<='"+ Parameter.EndTime + "'").ToList();
+            Element_Data ed = new Element_Data();
+            ed.Data= dt.Select<YY_DATA_AUTO>("YY_DATA_AUTO", new string[] { "*" }, " where itemID='" + Parameter.ElementID + "' and TM>='" + Parameter.StartTime + "' and TM<='" + Parameter.EndTime + "'").ToList();
+            var items = dt.Select<YY_RTU_ITEM>("YY_RTU_ITEM", new string[] { "*" }, " where itemID='" + Parameter.ElementID + "'").ToList();
+            if (items.Count > 0)
+            {
+                ed.Elements = items.First();
+            }
+            var ChartsInfo = dt.Select<ElementsChartsInfo_Tab>("ElementsChartsInfo_Tab", new string[] { "*" }, " where itemID='" + Parameter.ElementID + "'").ToList();
+            if (ChartsInfo.Count > 0)
+            {
+                ed.ChartsInfo= ChartsInfo.First();
+            }
+            return ed;
         }
         
         /// <summary>
         /// 得到所有站点各参数最新数据
         /// </summary>
-        /// <returns></returns>
+        /// <returns>所有最新一条数据</returns>
         [HttpPost]
         public List<YY_DATA_AUTO> GetAllNewData()
         {

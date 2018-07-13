@@ -28,6 +28,7 @@ namespace OnlineMonitoringSystemAPI.Controllers
         /// <summary>
         /// 得到站点所有信息
         /// </summary>
+        /// <param name="Loca">站号参数类</param>
         /// <returns>站点信息列表</returns>
         [HttpPost]
         public List<LocationInfo> GetLocationInfo(STCDParameter Loca)

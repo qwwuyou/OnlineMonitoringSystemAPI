@@ -15,24 +15,25 @@
             <summary>
             得到所有站点各参数最新数据
             </summary>
-            <returns></returns>
+            <returns>所有最新一条数据</returns>
         </member>
         <member name="M:OnlineMonitoringSystemAPI.Controllers.ElementsController.GetAllElements">
             <summary>
             得到所有监测元素信息
             </summary>
-            <param name="where">条件</param>
             <returns>监测元素列表</returns>
         </member>
         <member name="M:OnlineMonitoringSystemAPI.Controllers.ElementsController.GetElementsType">
             <summary>
             得到监测元素类型
             </summary>
+            <returns>监测元素类型列表</returns>
         </member>
         <member name="M:OnlineMonitoringSystemAPI.Controllers.ElementsController.GetElements">
             <summary>
             得到监测元素类型和包含的相关元素
             </summary>
+            <returns>所有监测元素</returns>
         </member>
         <member name="M:OnlineMonitoringSystemAPI.Controllers.ElementsController.GetElementsForLocation(Models.STCDParameter)">
             <summary>
@@ -56,6 +57,7 @@
             <summary>
             得到站点所有信息
             </summary>
+            <param name="Loca">站号参数类</param>
             <returns>站点信息列表</returns>
         </member>
         <member name="M:DataAccess._51Data.GetIncrementColumn(System.String)">

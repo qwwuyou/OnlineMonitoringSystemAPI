@@ -15,7 +15,6 @@ namespace OnlineMonitoringSystemAPI.Controllers
         /// <summary>
         /// 得到所有监测元素信息
         /// </summary>
-        /// <param name="where">条件</param>
         /// <returns>监测元素列表</returns>
         [HttpPost]
         public List<YY_RTU_ITEM> GetAllElements()
@@ -26,6 +25,7 @@ namespace OnlineMonitoringSystemAPI.Controllers
         /// <summary>
         /// 得到监测元素类型
         /// </summary>
+        /// <returns>监测元素类型列表</returns>
         [HttpPost]
         public List<YY_ITEMTYPE> GetElementsType()
         {
@@ -35,6 +35,7 @@ namespace OnlineMonitoringSystemAPI.Controllers
         /// <summary>
         /// 得到监测元素类型和包含的相关元素
         /// </summary>
+        /// <returns>所有监测元素</returns>
         [HttpPost]
         public List<Elements> GetElements()
         {
